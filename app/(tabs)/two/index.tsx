@@ -3,10 +3,10 @@ import React from 'react';
 
 import { Link } from 'expo-router';
 
-export default function HomeScreen() {
+export default function Page() {
   return (
     <View style={styles.container}>
-      <Text>Tab One</Text>
+      <Text>Tab Two</Text>
       <Link href="/two/details" asChild>
         <Button title="Go to Tab Two details" />
       </Link>
